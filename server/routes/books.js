@@ -1,3 +1,10 @@
+/*  
+  File: books.js
+  Name: Chihiro Hasegawa
+  Student ID: 301229147
+  Date: 2022 / 10 / 26
+*/
+
 // modules required for routing
 let express = require('express');
 let router = express.Router();
@@ -109,6 +116,5 @@ router.get('/delete/:id', (req, res, next) => {
     }
   })
 });
-
 
 module.exports = router;

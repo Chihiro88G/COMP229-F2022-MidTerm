@@ -1,3 +1,10 @@
+/*  
+  File: books.js
+  Name: Chihiro Hasegawa
+  Student ID: 301229147
+  Date: 2022 / 10 / 26
+*/
+
 let mongoose = require('mongoose');
 
 // create a model class

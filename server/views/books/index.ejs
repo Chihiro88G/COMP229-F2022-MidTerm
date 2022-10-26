@@ -1,3 +1,10 @@
+<!-- 
+   File: index.ejs
+   Name: Chihiro Hasegawa
+   Student ID: 301229147
+   Date: 2022/10/06 
+-->
+
 <% include ../partials/header.ejs %>
 
   <!-- MAIN CONTENT -->
@@ -5,9 +12,6 @@
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
         <h3>Favourite Books List </h3>
-        <!-- ------------------------ -->
-        <!-- FIX THE ADD BUTTON BELOW -->
-        <!-- ------------------------ -->
         <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
         <br>
         <div class="table-responsive">
@@ -39,18 +43,12 @@
                   </td>
 
                   <td class="text-center">
-                    <!-- ------------------------ -->
-                    <!-- ADD the EDIT BUTTON HERE -->
-                    <!-- ------------------------ -->
                     <a href="/books/<%=books[count].id %>" class="btn btn-primary">
                       <i class="fas fa-pencil alt">Edit</i>
                     </a>
                   </td>
 
                   <td class="text-center">
-                    <!-- ------------------------ -->
-                    <!-- ADD the DELETE BUTTON HERE -->
-                    <!-- ------------------------ -->
                     <a href="/books/delete/<%=books[count].id %>" class="btn btn-primary">
                       <i class="fas fa-pencil alt">Delete</i>
                     </a>
